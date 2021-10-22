@@ -1,0 +1,16 @@
+@import "../../../../assets/styles/variables.scss";
+
+.a-menu-item {
+    list-style: none;
+
+    &__link {
+        font-family: var(--main-font);
+        text-decoration: none;
+        padding: 10px;
+        color: var(--secondary-color);
+
+        &:hover {
+            background: var(--hover-color);
+        }
+    }
+}

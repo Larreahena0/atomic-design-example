@@ -1,0 +1,10 @@
+<nav class="m-menu">
+    <ul class="m-menu__list">
+        <app-menu-item
+            *ngFor="let menuItem of menuItems"
+            [optionHref]="menuItem.optionHref"
+            [optionText]="menuItem.optionText"
+        >
+        </app-menu-item>
+    </ul>
+</nav>
