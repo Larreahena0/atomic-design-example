@@ -34,7 +34,7 @@ export class SingersComponent implements OnInit {
                 imageText: 'Billie Eilish',
             },
             {
-                imageText: 'Shakira'
+                imageText: 'Diego Chavez'
             }
         ];
     }

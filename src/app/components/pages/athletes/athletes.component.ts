@@ -34,6 +34,9 @@ export class AthletesComponent implements OnInit {
                 imageText: 'Lionel Messi',
                 imageSrc: 'messi.jpg',
             },
+            {
+                imageText: 'Santiago Larrea'
+            }
         ];
     }
 

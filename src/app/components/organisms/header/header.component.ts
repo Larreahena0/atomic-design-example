@@ -28,6 +28,10 @@ export class HeaderComponent implements OnInit {
             },
             {
                 optionText: 'Politicos'
+            },
+            {
+                optionText: 'Pragma',
+                optionHref: '/pragma'
             }
         ];
     }
