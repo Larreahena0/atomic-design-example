@@ -32,8 +32,10 @@ export class SingersComponent implements OnInit {
             },
             {
                 imageText: 'Billie Eilish',
-                imageSrc: 'billie.jpg'
             },
+            {
+                imageText: 'Shakira'
+            }
         ];
     }
 

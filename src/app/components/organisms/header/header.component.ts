@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'app-header',
@@ -27,9 +27,8 @@ export class HeaderComponent implements OnInit {
                 optionHref: '/lideres-sociales',
             },
             {
-                optionText: 'Politicos',
-                optionHref: '/politicos',
-            },
+                optionText: 'Politicos'
+            }
         ];
     }
 
